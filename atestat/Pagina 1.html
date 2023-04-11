@@ -1,0 +1,72 @@
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Atestat: "Firmă IT"</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html"><img src="Imagini/Icon Invisible BG.png" class="profile-img"></a>
+            <nav>
+                <ul>
+                   
+                    <li><a href="Pagina 1.html">Oferte</a></li>
+                    <li><a href="Pagina 2.html">Aplicații</a></li>
+                    <li><a href="Pagina 3.html">Ajutor</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+
+
+<P ><U>Nu rata aceste oferte de mai jos, timpul e limitat:<p  id="demo"></p>
+
+<script>
+
+var countDownDate = new Date("Jun 22, 2020 00:00:00" ).getTime();
+
+
+var x = setInterval(function() {
+
+  
+  var now = new Date().getTime();
+    
+  
+  var distance = countDownDate - now;
+    
+  
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "A EXPIRAT";
+  }
+}, 1000);
+</script>
+<p style="color:#ffe600"> 50% </p>
+</P> 
+ <UL type="square">  
+   <pal style="color:#ffe600"><LI class="mare" >Planuri: </pal> <OL type="square">  
+   <a href="Pagina 7.html "><LI class="mare"><pal style="color:#ffe600"> 1 lună :<s>30.99 RON </s> &rArr; 15.49</pal></a>
+   <a href="Pagina 7.html "><LI class="mare"> <pal style="color:#ffe600">6 luni :<s>49.99 RON </s> &rArr; 24.99</pal></a>
+   <a href="Pagina 7.html "><LI class="mare"> <pal style="color:#ffe600">1 an :<s>88.99 RON </s> &rArr; 44.49</pal></a>
+   <a href="Pagina 7.html "><LI class="mare"> <pal style="color:#ffe600">3 ani :<s>150.99 RON </s> &rArr; 75.49</pal></a> </OL> 
+  
+</UL> 
+        </main>
+        <footer>
+Spînu Răzvan, Clasa XII A<br />
+HoloCoreX
+        </footer>
+    </body>
+</html>
